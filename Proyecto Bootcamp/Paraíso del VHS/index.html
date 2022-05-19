@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Bootcamp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="./logo2.png" alt="Logo">
+
+            <h1>Paraíso del VHS</h1>
+
+            <ul id="nav__items">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Sobre Nosotros</a></li>
+            </ul>
+
+            <a href="#"> <span class="cart material-icons">&#xe8cc;</span> </a>
+            <div id="carrito">
+                <table class="tabla-normal" id="lista-carrito">
+                    <thead>
+                        <tr>
+                            <th>Imagen</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                            <th>Cantidad</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <a href="#" id="vaciar-carrito">Vaciar Carrito</a>
+            </div>
+
+            <button id="bmenu">
+                <span class="material-icons">&#xe5d2;</span>
+            </button>
+        </nav>
+    </header>
+
+    <h2>Trending Movies</h2>
+
+    <div class="grid"></div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
